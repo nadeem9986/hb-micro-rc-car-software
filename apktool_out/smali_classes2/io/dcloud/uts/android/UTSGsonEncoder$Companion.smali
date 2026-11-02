@@ -130,7 +130,7 @@
     .line 441
     new-array p2, p2, [Ljava/lang/Object;
 
-    const-string v0, "JSON stringify \u9519\u8bef : Converting circular structure to JSON "
+    const-string v0, "JSON stringify error : Converting circular structure to JSON "
 
     const/4 v1, 0x0
 

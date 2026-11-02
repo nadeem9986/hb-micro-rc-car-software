@@ -278,31 +278,31 @@
 
     .line 81
     :pswitch_15
-    const-string/jumbo p0, "\u5e7f\u544a\u521d\u59cb\u5316\u5f02\u5e38"
+    const-string/jumbo p0, "Ad initialization error"
 
     return-object p0
 
     .line 83
     :pswitch_16
-    const-string/jumbo p0, "\u672a\u68c0\u6d4b\u5230\u624b\u673a\u5b89\u88c5\u5fae\u4fe1"
+    const-string/jumbo p0, "WeChat is not installed on this device"
 
     return-object p0
 
     .line 85
     :pswitch_17
-    const-string/jumbo p0, "\u5fae\u4fe1\u5f53\u524d\u7248\u672c\u4e0d\u652f\u6301\u8fd0\u884c\u5c0f\u7a0b\u5e8f"
+    const-string/jumbo p0, "The current version of WeChat cannot run mini programs"
 
     return-object p0
 
     .line 87
     :pswitch_18
-    const-string/jumbo p0, "\u672a\u83b7\u53d6\u5230\u5e7f\u544a\u914d\u7f6e\u6570\u636e"
+    const-string/jumbo p0, "Failed to get ad configuration data"
 
     return-object p0
 
     .line 89
     :pswitch_19
-    const-string/jumbo p0, "\u5e7f\u544a\u8bf7\u6c42\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5"
+    const-string/jumbo p0, "Ad request failed, please try again later"
 
     return-object p0
 
@@ -371,7 +371,7 @@
     if-eqz p0, :cond_6
 
     .line 144
-    const-string/jumbo p0, "\u5e7f\u544a\u672a\u521d\u59cb\u5316\u6216\u8005\u521d\u59cb\u5316\u4fe1\u606f\u4e3a\u7a7a"
+    const-string/jumbo p0, "Ad is not initialized or its init info is empty"
 
     return-object p0
 

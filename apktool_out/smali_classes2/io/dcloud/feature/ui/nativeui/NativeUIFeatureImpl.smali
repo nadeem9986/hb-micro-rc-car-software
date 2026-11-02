@@ -2153,7 +2153,7 @@
     aget-object v0, v3, v7
 
     .line 625
-    const-string v8, "\u66f4\u65b0"
+    const-string v8, "Update"
 
     invoke-virtual {v0, v8}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2161,7 +2161,7 @@
 
     if-nez v9, :cond_1
 
-    const-string v9, "\u5347\u7ea7"
+    const-string v9, "Upgrade"
 
     invoke-virtual {v0, v9}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2181,7 +2181,7 @@
 
     if-nez v8, :cond_0
 
-    const-string v8, "\u7248\u672c"
+    const-string v8, "Version"
 
     invoke-virtual {v6, v8}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2198,7 +2198,7 @@
 
     if-nez v8, :cond_1
 
-    const-string v8, "\u662f"
+    const-string v8, "Yes"
 
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2206,7 +2206,7 @@
 
     if-nez v8, :cond_1
 
-    const-string v8, "\u786e\u5b9a"
+    const-string v8, "OK"
 
     invoke-virtual {v0, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2333,7 +2333,7 @@
     if-eqz v0, :cond_1
 
     .line 613
-    const-string v0, "\u66f4\u65b0"
+    const-string v0, "Update"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2341,7 +2341,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "\u5347\u7ea7"
+    const-string v0, "Upgrade"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2349,7 +2349,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "\u7248\u672c"
+    const-string v0, "Version"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2430,7 +2430,7 @@
     move-result-object v2
 
     .line 651
-    const-string v3, "\u66f4\u65b0"
+    const-string v3, "Update"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2438,7 +2438,7 @@
 
     if-nez v3, :cond_0
 
-    const-string v3, "\u5347\u7ea7"
+    const-string v3, "Upgrade"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -2446,7 +2446,7 @@
 
     if-nez v3, :cond_0
 
-    const-string v3, "\u7248\u672c"
+    const-string v3, "Version"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 

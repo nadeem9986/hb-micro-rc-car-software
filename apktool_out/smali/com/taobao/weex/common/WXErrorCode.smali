@@ -805,7 +805,7 @@
 
     const-string v3, "-2007"
 
-    const-string v4, "system load so error\uff0ccopy from APK also error!"
+    const-string v4, "system load so error, copy from APK also error!"
 
     const-string v1, "WX_ERR_COPY_FROM_APK"
 

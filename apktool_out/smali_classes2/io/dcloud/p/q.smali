@@ -135,7 +135,7 @@
 
     move-result-object v7
 
-    const-string v8, "\u3001"
+    const-string v8, ", "
 
     if-eqz v0, :cond_5
 

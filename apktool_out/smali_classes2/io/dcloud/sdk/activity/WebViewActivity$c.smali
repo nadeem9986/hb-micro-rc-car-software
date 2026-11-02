@@ -298,7 +298,7 @@
     if-lez v4, :cond_6
 
     .line 42
-    const-string v4, "\u5373\u5c06\u6253\u5f00\"Android system\"\u5e94\u7528, \n\u7acb\u5373\u6253\u5f00?"
+    const-string v4, "About to open the \"Android system\" app.\nOpen now?"
 
     .line 44
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -331,13 +331,13 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v0, "\u5373\u5c06\u6253\u5f00\""
+    const-string v0, "About to open \""
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    const-string v0, "\"\u5e94\u7528, \n\u7acb\u5373\u6253\u5f00?"
+    const-string v0, "\" app.\nOpen now?"
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -357,7 +357,7 @@
 
     move-result-object p2
 
-    const-string v0, "\u6253\u5f00"
+    const-string v0, "Open"
 
     new-instance v1, Lio/dcloud/sdk/activity/WebViewActivity$c$a;
 
@@ -367,7 +367,7 @@
 
     move-result-object p1
 
-    const-string p2, "\u53d6\u6d88"
+    const-string p2, "Cancel"
 
     .line 55
     invoke-virtual {p1, p2, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

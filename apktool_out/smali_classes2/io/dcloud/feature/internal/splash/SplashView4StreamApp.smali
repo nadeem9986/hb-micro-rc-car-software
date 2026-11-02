@@ -99,7 +99,7 @@
     const/4 v3, 0x2
 
     .line 3
-    const-string v4, "\u5b8b\u4f53"
+    const-string v4, "SimSun"
 
     invoke-static {v4, v3}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 

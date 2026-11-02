@@ -719,7 +719,7 @@
 .method public a(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Lio/dcloud/common/DHInterface/IOnCreateSplashView;Z)Lio/dcloud/common/DHInterface/IApp;
     .locals 8
 
-    const-string v0, "\u542f\u52a8"
+    const-string v0, "Launch"
 
     .line 124
     const-string v1, "GET_STATUS_BY_APPID"

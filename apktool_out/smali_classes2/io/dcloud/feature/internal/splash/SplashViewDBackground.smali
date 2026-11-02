@@ -360,7 +360,7 @@
     .line 38
     iget-object v0, p0, Lio/dcloud/feature/internal/splash/SplashViewDBackground;->c:Landroid/widget/TextView;
 
-    const-string v1, "\u5b8b\u4f53"
+    const-string v1, "SimSun"
 
     const/4 v2, 0x0
 

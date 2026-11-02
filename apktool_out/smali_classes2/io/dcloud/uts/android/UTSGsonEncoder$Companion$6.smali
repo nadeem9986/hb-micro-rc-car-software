@@ -196,7 +196,7 @@
     .locals 1
 
     .line 336
-    const-string v0, "json-\u53ef\u679a\u4e3e\u63a5\u53e3"
+    const-string v0, "json enumerable interface"
 
     return-object v0
 .end method

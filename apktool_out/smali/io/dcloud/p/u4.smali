@@ -343,7 +343,7 @@
     const v0, 0xea61
 
     .line 4
-    const-string/jumbo v1, "\u5e7f\u544a\u8bf7\u6c42\u5730\u5740\u51fa\u9519"
+    const-string/jumbo v1, "Ad request URL error"
 
     invoke-virtual {p0, v0, v1}, Lio/dcloud/p/u2;->a(ILjava/lang/String;)V
 
@@ -553,7 +553,7 @@
     const v0, 0xea62
 
     .line 49
-    const-string/jumbo v1, "\u5e7f\u544a\u914d\u7f6e\u5f02\u5e38"
+    const-string/jumbo v1, "Ad configuration error"
 
     invoke-virtual {p0, v0, v1}, Lio/dcloud/p/u2;->a(ILjava/lang/String;)V
 

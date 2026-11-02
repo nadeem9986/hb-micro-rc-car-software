@@ -8,7 +8,7 @@
     .locals 1
 
     .line 11
-    const-string/jumbo v0, "\u5df2\u5f00\u59cb\u4e0b\u8f7d\uff0c\u5b8c\u6210\u540e\u81ea\u52a8\u6253\u5f00\u5b89\u88c5\u754c\u9762"
+    const-string/jumbo v0, "Download started; the install screen will open automatically when it finishes"
 
     invoke-static {p0, v0}, Lio/dcloud/p/c;->b(Landroid/content/Context;Ljava/lang/String;)V
 

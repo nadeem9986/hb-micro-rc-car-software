@@ -1137,7 +1137,7 @@
     .line 306
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "==============B\u622a\u56fe\u8017\u65f6="
+    const-string v3, "==============B screenshot time="
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2169,7 +2169,7 @@
     .line 2
     const-string v0, "Animation_Path"
 
-    const-string v1, "AppRootView dispatchConfigurationChanged(\u6a2a\u7ad6\u5c4f\u5207\u6362\u3001\u5168\u5c4f\u975e\u5168\u5c4f\u5207\u6362\u3001\u865a\u62df\u8fd4\u56de\u952e\u680f\u9690\u85cf\u663e\u793a) \u5f15\u53d1\u8c03\u6574\u6808\u7a97\u53e3"
+    const-string v1, "AppRootView dispatchConfigurationChanged (orientation change, fullscreen toggle, virtual back-bar show/hide) triggered stack window adjustment"
 
     invoke-static {v0, v1}, Lio/dcloud/common/adapter/util/Logger;->d(Ljava/lang/String;Ljava/lang/String;)V
 

@@ -295,7 +295,7 @@
     .locals 1
 
     .line 44
-    const-string v0, "json\u57fa\u7840\u6570\u636e\u7c7b\u578b"
+    const-string v0, "json primitive type"
 
     return-object v0
 .end method

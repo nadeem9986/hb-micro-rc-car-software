@@ -181,7 +181,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string/jumbo v3, "\u7f51\u7edc\u8bf7\u6c42\u5931\u8d25\uff1a"
+    const-string/jumbo v3, "Network request failed: "
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

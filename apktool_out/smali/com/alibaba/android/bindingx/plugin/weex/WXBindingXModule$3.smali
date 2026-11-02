@@ -48,7 +48,7 @@
     if-eqz v0, :cond_0
 
     .line 119
-    const-string/jumbo v0, "\u89e6\u53d1\u53bb\u5f80\u524d\u7aef\u7684\u56de\u8c03"
+    const-string/jumbo v0, "Triggering callback to the frontend"
 
     const-string v1, "callback"
 

@@ -517,7 +517,7 @@
     .locals 1
 
     .line 159
-    const-string v0, "json-\u5bb9\u5668\u6570\u636e\u7c7b\u578b"
+    const-string v0, "json container type"
 
     return-object v0
 .end method

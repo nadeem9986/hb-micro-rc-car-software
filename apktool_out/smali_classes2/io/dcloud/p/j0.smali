@@ -40,7 +40,7 @@
     if-eqz p2, :cond_0
 
     .line 8
-    const-string p1, "\u5f53\u524d\u73af\u5883\u6ca1\u6709\u5feb\u624b\u5185\u5bb9\u8054\u76dfSDK"
+    const-string p1, "The Kuaishou Content Alliance SDK is not available in this environment"
 
     const/4 v0, 0x0
 

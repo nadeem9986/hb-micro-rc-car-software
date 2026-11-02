@@ -12484,7 +12484,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "[WXComponent] setX method only one parameter\uff1a"
+    const-string v1, "[WXComponent] setX method only one parameter: "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

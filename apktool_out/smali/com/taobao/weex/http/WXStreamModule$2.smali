@@ -249,7 +249,7 @@
 
     .line 34
     :cond_5
-    const-string p1, "response \u4e3a\u7a7a"
+    const-string p1, "response is empty"
 
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

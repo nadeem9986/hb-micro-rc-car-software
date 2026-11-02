@@ -246,7 +246,7 @@
     const/16 v4, -0x138f
 
     .line 30
-    const-string/jumbo v5, "\u6570\u636e\u89e3\u6790\u5f02\u5e38"
+    const-string/jumbo v5, "Data parsing error"
 
     invoke-interface {v3, v4, v5}, Lio/dcloud/p/s1$a;->a(ILjava/lang/String;)V
 

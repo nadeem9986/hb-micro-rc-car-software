@@ -2041,7 +2041,7 @@
 
     move-object/from16 v10, p0
 
-    const-string v1, "\u521d\u59cb\u5316 "
+    const-string v1, "Init "
 
     const-string v2, "error: "
 
@@ -2718,7 +2718,7 @@
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v1, " \u5931\u8d25 - "
+    const-string v1, " failed - "
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

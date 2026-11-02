@@ -6166,7 +6166,7 @@
     invoke-static {v0, v4}, Lio/dcloud/common/adapter/util/Logger;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 792
-    const-string v0, "createFrameView\u8017\u65f6\uff1a"
+    const-string v0, "createFrameView took: "
 
     move-object/from16 v4, v20
 
@@ -7811,7 +7811,7 @@
 
     if-eqz v4, :cond_2
 
-    const-string/jumbo v7, "\u53d1\u751f\u4f4d\u7f6e\u533a\u57df\u53d8\u5316"
+    const-string/jumbo v7, "Position/region changed"
 
     goto :goto_1
 
@@ -7819,7 +7819,7 @@
     if-eqz v6, :cond_3
 
     .line 5596
-    const-string/jumbo v7, "zindex\u53d1\u751f\u4e86\u53d8\u5316"
+    const-string/jumbo v7, "z-index changed"
 
     goto :goto_1
 
@@ -7827,7 +7827,7 @@
     if-eqz v1, :cond_4
 
     .line 5597
-    const-string/jumbo v7, "\u8bbe\u7f6e\u900f\u660e\u5ea6\u53d8\u5316"
+    const-string/jumbo v7, "Opacity changed"
 
     goto :goto_1
 

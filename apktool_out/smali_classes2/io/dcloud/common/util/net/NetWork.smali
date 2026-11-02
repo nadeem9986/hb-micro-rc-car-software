@@ -709,7 +709,7 @@
 .method public run()V
     .locals 7
 
-    const-string v0, "\u91cd\u5b9a\u5411\u7684URL:"
+    const-string v0, "Redirect URL: "
 
     const/4 v1, -0x1
 

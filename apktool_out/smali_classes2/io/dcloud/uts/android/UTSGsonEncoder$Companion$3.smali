@@ -124,7 +124,7 @@
     .locals 1
 
     .line 132
-    const-string v0, "gson-\u5185\u7f6e\u5bf9\u8c61"
+    const-string v0, "gson built-in object"
 
     return-object v0
 .end method

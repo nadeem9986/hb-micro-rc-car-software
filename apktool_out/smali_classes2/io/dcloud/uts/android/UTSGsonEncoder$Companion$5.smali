@@ -207,7 +207,7 @@
     .locals 1
 
     .line 283
-    const-string v0, "json-\u5f00\u53d1\u8005\u81ea\u5b9a\u4e49\u7c7b\u578b"
+    const-string v0, "json - custom developer type"
 
     return-object v0
 .end method

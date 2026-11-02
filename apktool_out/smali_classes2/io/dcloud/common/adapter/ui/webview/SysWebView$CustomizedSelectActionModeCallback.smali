@@ -86,7 +86,7 @@
     move-result-object v2
 
     .line 6
-    const-string v3, "\u641c\u7d22"
+    const-string v3, "Search"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 

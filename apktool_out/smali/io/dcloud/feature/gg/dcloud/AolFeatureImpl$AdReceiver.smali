@@ -488,7 +488,7 @@
     .line 3
     iget-object v2, v0, Lio/dcloud/feature/gg/dcloud/AolFeatureImpl$AdReceiver;->context:Landroid/content/Context;
 
-    const-string/jumbo v4, "\u5e7f\u544a\u5173\u95ed\u65f6\u672a\u8bf7\u6c42\u6210\u529f"
+    const-string/jumbo v4, "The ad had not loaded successfully when it was closed"
 
     const/4 v5, 0x0
 

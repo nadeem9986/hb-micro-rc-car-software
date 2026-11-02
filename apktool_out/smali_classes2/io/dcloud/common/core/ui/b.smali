@@ -917,7 +917,7 @@
     .line 30
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v5, "on_Done_Animation \u52a8\u753b\u5b8c\u540e\u5b58\u5728\u7a97\u53e3\u5165\u6808\uff1b"
+    const-string v5, "on_Done_Animation: window pushed onto stack after animation; "
 
     invoke-direct {v2, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -954,7 +954,7 @@
     .line 35
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v5, "on_Done_Animation \u52a8\u753b\u5b8c\u540e\u5b58\u5728\u7a97\u53e3\u51fa\u6808\uff1b"
+    const-string v5, "on_Done_Animation: window popped from stack after animation; "
 
     invoke-direct {v2, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1374,12 +1374,12 @@
 
     if-eqz v1, :cond_1
 
-    const-string v1, "\u8c03\u6574\u4e3a\u6a2a\u5c4f\u72b6\u6001"
+    const-string v1, "Switched to landscape"
 
     goto :goto_0
 
     :cond_1
-    const-string v1, "\u8c03\u6574\u4e3a\u7ad6\u5c4f\u72b6\u6001"
+    const-string v1, "Switched to portrait"
 
     :goto_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -2268,9 +2268,9 @@
     .line 2
     iget-object p1, p0, Lio/dcloud/common/core/ui/b;->j:Lio/dcloud/common/DHInterface/IApp;
 
-    const-string v0, "\u7ad6\u5c4f\u51fa\u6808"
+    const-string v0, "Portrait popped from stack"
 
-    const-string v1, "\u6a2a\u5c4f\u51fa\u6808"
+    const-string v1, "Landscape popped from stack"
 
     const-string v2, "Animation_Path"
 
@@ -2325,7 +2325,7 @@
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string v3, "\u5df2\u7ecf\u63d0\u524d\u51fa\u6808\u4e86 "
+    const-string v3, "Already popped from stack early "
 
     invoke-direct {p1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

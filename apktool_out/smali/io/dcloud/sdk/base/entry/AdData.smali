@@ -780,7 +780,7 @@
     const p1, 0xea68
 
     .line 50
-    const-string/jumbo v0, "\u56fe\u7247\u8d44\u6e90\u8def\u5f84\u5f02\u5e38"
+    const-string/jumbo v0, "Invalid image resource path"
 
     invoke-interface {p2, p1, v0}, Lio/dcloud/sdk/base/entry/AdData$e;->a(ILjava/lang/String;)V
 
@@ -792,7 +792,7 @@
     const p1, 0xea67
 
     .line 54
-    const-string/jumbo v0, "\u65e0\u5e7f\u544a\u586b\u5145"
+    const-string/jumbo v0, "No ad fill"
 
     invoke-interface {p2, p1, v0}, Lio/dcloud/sdk/base/entry/AdData$e;->a(ILjava/lang/String;)V
 

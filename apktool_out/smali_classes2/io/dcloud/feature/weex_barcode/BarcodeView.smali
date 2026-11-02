@@ -2244,7 +2244,7 @@
     int-to-float v1, v1
 
     .line 25
-    const-string v3, "\u30ab\u30e1\u30e9\u6a29\u9650\u304c\u3042\u308a\u307e\u305b\u3093"
+    const-string v3, "Camera permission is not granted"
 
     invoke-virtual {p1, v3, v2, v1, v0}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 

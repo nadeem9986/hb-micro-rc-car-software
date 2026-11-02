@@ -4329,7 +4329,7 @@
     :cond_7
     iget-object p1, p0, Lcom/taobao/weex/ui/component/list/BasicListComponent;->TAG:Ljava/lang/String;
 
-    const-string v0, "List cannot include element except cell\u3001header\u3001fixed\u3001refresh and loading"
+    const-string v0, "List cannot include element except cell, header, fixed, refresh and loading"
 
     invoke-static {p1, v0}, Lcom/taobao/weex/utils/WXLogUtils;->e(Ljava/lang/String;Ljava/lang/String;)V
 

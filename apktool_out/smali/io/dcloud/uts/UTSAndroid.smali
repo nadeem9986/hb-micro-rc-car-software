@@ -998,7 +998,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5df2\u5e9f\u5f03\uff0c\u4f7f\u7528 getDispatcher \u65b9\u6cd5\u6765\u66ff\u4ee3"
+        message = "Deprecated, use the getDispatcher method instead"
     .end annotation
 
     const-string v0, "threadName"
@@ -1328,7 +1328,7 @@
 .method public final getAppTempPath()Ljava/lang/String;
     .locals 4
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5df2\u5e9f\u5f03\uff0c\u8bf7\u4f7f\u7528getAppCachePath"
+        message = "Deprecated, use getAppCachePath instead"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "getAppCachePath"
             imports = {}
@@ -2950,7 +2950,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5df2\u5e9f\u5f03\uff0c\u8bf7\u4f7f\u7528requestSystemPermission"
+        message = "Deprecated, use requestSystemPermission instead"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "requestSystemPermission"
             imports = {}
@@ -3441,7 +3441,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5df2\u5e9f\u5f03\uff0c\u8bf7\u4f7f\u7528requestSystemPermission"
+        message = "Deprecated, use requestSystemPermission instead"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "requestSystemPermission"
             imports = {}
@@ -3993,7 +3993,7 @@
 .method public final quitApp()V
     .locals 1
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5df2\u5e9f\u5f03\uff0c\u4f7f\u7528 exit()\u66ff\u4ee3"
+        message = "Deprecated, use exit() instead"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "utsAndroid!!.quitApp()"
             imports = {

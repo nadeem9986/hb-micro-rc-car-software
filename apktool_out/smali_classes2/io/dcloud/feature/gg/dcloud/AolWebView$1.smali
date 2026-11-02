@@ -132,7 +132,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog;->setIcon(I)V
 
     .line 8
-    const-string v1, "\u5b89\u5168\u8b66\u544a"
+    const-string v1, "Security warning"
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog;->setTitle(Ljava/lang/CharSequence;)V
 
@@ -160,7 +160,7 @@
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v1, "\n\u6b64\u7ad9\u70b9\u5b89\u5168\u8bc1\u4e66\u5b58\u5728\u95ee\u9898,\u662f\u5426\u7ee7\u7eed?"
+    const-string v1, "\nThere is a problem with this site's security certificate. Continue?"
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -172,7 +172,7 @@
 
     .line 15
     :cond_1
-    const-string v1, "\u6b64\u7ad9\u70b9\u5b89\u5168\u8bc1\u4e66\u5b58\u5728\u95ee\u9898,\u662f\u5426\u7ee7\u7eed?"
+    const-string v1, "There is a problem with this site's security certificate. Continue?"
 
     .line 18
     :goto_0

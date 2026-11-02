@@ -1253,7 +1253,7 @@
 
     move-result-object v0
 
-    const-string/jumbo v1, "\u65e5\u5fd7\u8def\u5f84:"
+    const-string/jumbo v1, "Log path: "
 
     const-string v2, "Logger"
 

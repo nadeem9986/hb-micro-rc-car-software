@@ -283,7 +283,7 @@
     .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "\u62f7\u8d1d\u5230\u526a\u5207\u677f"
+    const-string v1, "Copy to clipboard"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -351,7 +351,7 @@
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
     .line 14
-    const-string v4, "\u5237\u65b0"
+    const-string v4, "Refresh"
 
     invoke-virtual {v3, v0, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -364,7 +364,7 @@
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
     .line 17
-    const-string v4, "\u590d\u5236\u94fe\u63a5"
+    const-string v4, "Copy link"
 
     invoke-virtual {v3, v0, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -377,7 +377,7 @@
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
     .line 20
-    const-string v4, "\u4f7f\u7528\u6d4f\u89c8\u5668\u6253\u5f00"
+    const-string v4, "Open in browser"
 
     invoke-virtual {v3, v0, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -390,7 +390,7 @@
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
     .line 23
-    const-string v4, "\u5206\u4eab\u9875\u9762"
+    const-string v4, "Share page"
 
     invoke-virtual {v3, v0, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -409,7 +409,7 @@
 
     .line 28
     :goto_1
-    const-string v0, "\u53d6\u6d88"
+    const-string v0, "Cancel"
 
     invoke-virtual {v1, v0}, Lio/dcloud/p/g;->a(Ljava/lang/String;)Lio/dcloud/p/g;
 
@@ -473,7 +473,7 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 6
-    const-string v1, "\u6253\u5f00\u7f51\u9875"
+    const-string v1, "Open webpage"
 
     invoke-static {v0, v1}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
@@ -549,7 +549,7 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     .line 7
-    const-string v1, "\u5206\u4eab"
+    const-string v1, "Share"
 
     invoke-static {v0, v1}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 

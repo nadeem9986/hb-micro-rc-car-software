@@ -13,7 +13,7 @@
     .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
-    const-string/jumbo v1, "\u672c\u5c4f\u5e55\u5de5\u5177\u7c7b\u4e0d\u80fd\u88ab\u5b9e\u4f8b\u5316,\u76f4\u63a5\u8c03\u7528\u9759\u6001\u65b9\u6cd5\u5c31\u597d"
+    const-string/jumbo v1, "This screen utility class cannot be instantiated; call the static methods directly"
 
     invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 

@@ -66,7 +66,7 @@
 .method public static final getAppContext()Landroid/content/Context;
     .locals 1
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.getAppContext()"
             imports = {
@@ -88,7 +88,7 @@
 .method public static final getResourcePath(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.getResourcePath()"
             imports = {
@@ -171,7 +171,7 @@
 .method public static final getUniActivity()Landroid/app/Activity;
     .locals 3
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.getUniActivity()"
             imports = {
@@ -235,7 +235,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityBack()"
             imports = {
@@ -299,7 +299,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityDestroy()"
             imports = {
@@ -363,7 +363,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityPause()"
             imports = {
@@ -436,7 +436,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityRequestPermissionsResult()"
             imports = {
@@ -506,7 +506,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityResult()"
             imports = {
@@ -570,7 +570,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppActivityResume()"
             imports = {
@@ -636,7 +636,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppConfigChange()"
             imports = {
@@ -702,7 +702,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.offAppTrimMemory()"
             imports = {
@@ -766,7 +766,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityBack()"
             imports = {
@@ -803,7 +803,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityDestroy()"
             imports = {
@@ -840,7 +840,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityPause()"
             imports = {
@@ -886,7 +886,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityRequestPermissionsResult()"
             imports = {
@@ -929,7 +929,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityResult()"
             imports = {
@@ -966,7 +966,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityResume()"
             imports = {
@@ -1003,7 +1003,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppActivityStop()"
             imports = {
@@ -1042,7 +1042,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppConfigChange()"
             imports = {
@@ -1081,7 +1081,7 @@
     .end annotation
 
     .annotation runtime Lkotlin/Deprecated;
-        message = "\u5f53\u524d\u65b9\u6cd5\u5df2\u5e9f\u5f03\uff0c\u672a\u6765\u67d0\u4e2a\u65f6\u523b\u5c06\u4f1a\u88ab\u79fb\u9664"
+        message = "This method is deprecated and will be removed in a future release"
         replaceWith = .subannotation Lkotlin/ReplaceWith;
             expression = "UTSAndroid.onAppTrimMemory()"
             imports = {

@@ -441,7 +441,7 @@
     :cond_5
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v9, "C\u9875\u9762\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:"
+    const-string v9, "Enable screenshot animation for page C: "
 
     invoke-direct {v0, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -636,7 +636,7 @@
     .line 78
     new-instance v15, Ljava/lang/StringBuilder;
 
-    const-string v12, "==============C\u622a\u56fe\u8017\u65f6="
+    const-string v12, "==============C screenshot time="
 
     invoke-direct {v15, v12}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1576,7 +1576,7 @@
     .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string v0, "B\u9875\u9762"
+    const-string v0, "Page B"
 
     invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1585,7 +1585,7 @@
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string v0, "C\u9875\u9762"
+    const-string v0, "Page C"
 
     invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1626,7 +1626,7 @@
 
     move-result p2
 
-    const-string p3, "1\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:"
+    const-string p3, "1: enable screenshot animation: "
 
     const-string v1, "mabo"
 
@@ -1775,7 +1775,7 @@
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string p1, "2\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:"
+    const-string p1, "2: enable screenshot animation: "
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1833,7 +1833,7 @@
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string p1, "3\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:"
+    const-string p1, "3: enable screenshot animation: "
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -69,7 +69,7 @@
 
     const v1, 0xea6a
 
-    const-string v2, "\u5e7f\u544a\u5bb9\u5668\u4e0d\u53ef\u89c1"
+    const-string v2, "Ad container is not visible"
 
     invoke-interface {v0, v1, v2}, Lio/dcloud/p/u2$c;->a(ILjava/lang/String;)V
 
@@ -235,7 +235,7 @@
 
     const v1, 0xea64
 
-    const-string v2, "\u56fe\u7247\u8d44\u6e90\u52a0\u8f7d\u5931\u8d25"
+    const-string v2, "Failed to load image resource"
 
     invoke-interface {v0, v1, v2}, Lio/dcloud/p/u2$c;->a(ILjava/lang/String;)V
 

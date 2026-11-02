@@ -1457,7 +1457,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v3, "\u63d0\u524d\u6ce8\u5165JS\u6210\u529f\u8017\u65f6\uff1a"
+    const-string v3, "Early JS injection succeeded, took: "
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1642,7 +1642,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v3, "\u63d0\u524d\u6ce8\u5165CSS\u6210\u529f\u8017\u65f6\uff1a"
+    const-string v3, "Early CSS injection succeeded, took: "
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2294,7 +2294,7 @@
     .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "\u5df2\u7ecf\u63d0\u524d\u6ce8\u5165CSS\u5b8c\u6210\u3002\u4e0d\u9700\u8981\u518d\u6ce8\u5165\u4e86"
+    const-string v1, "Early CSS injection already complete; no need to inject again"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2325,7 +2325,7 @@
     .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "\u63d0\u524d\u6ce8\u5165CSS\u5b8c\u6210"
+    const-string v1, "Early CSS injection complete"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2384,7 +2384,7 @@
     .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string p2, "all.js\u5df2\u7ecf\u6ce8\u5165\u5b8c\u6210\u3002\u4e0d\u9700\u8981\u518d\u6ce8\u5165\u4e86"
+    const-string p2, "all.js injection already complete; no need to inject again"
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2408,7 +2408,7 @@
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v4, "onLoadPlusJSContent all.js\u6ce8\u5165 "
+    const-string v4, "onLoadPlusJSContent all.js injected "
 
     invoke-direct {v0, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -4397,7 +4397,7 @@
     .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string p2, "mPreloadJs \u5df2\u7ecf\u63d0\u524d\u6ce8\u5165JS\u5b8c\u6210\u3002\u4e0d\u9700\u8981\u518d\u6ce8\u5165\u4e86"
+    const-string p2, "mPreloadJs: early JS injection already complete; no need to inject again"
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -6146,7 +6146,7 @@
     .line 16
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string v0, "\u68c0\u6d4b\u62e6\u622a\u56de\u8c03shouldOverrideUrlLoading url="
+    const-string v0, "Intercept callback shouldOverrideUrlLoading url="
 
     invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

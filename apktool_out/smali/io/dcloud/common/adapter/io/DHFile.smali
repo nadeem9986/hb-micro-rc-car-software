@@ -181,11 +181,11 @@
 
     const-string v1, " > to < "
 
-    const-string v2, "PlatFU copyAssetsFile fail \uff01\uff01\uff01\uff01 Exception< "
+    const-string v2, "PlatFU copyAssetsFile fail !!!! Exception< "
 
     const-string v3, "PlatFU copyAssetsFile "
 
-    const-string v4, "PlatFU copyAssetsFile fail \uff01\uff01\uff01\uff01  is = null < "
+    const-string v4, "PlatFU copyAssetsFile fail !!!!  is = null < "
 
     const-string v5, "PlatFU copyAssetsFile < "
 

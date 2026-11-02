@@ -104,7 +104,7 @@
     const p1, 0xea6a
 
     .line 1
-    const-string/jumbo v0, "\u5e7f\u544a\u5bb9\u5668\u4e0d\u53ef\u89c1"
+    const-string/jumbo v0, "Ad container is not visible"
 
     invoke-virtual {p0, p1, v0}, Lio/dcloud/p/u2;->a(ILjava/lang/String;)V
 
@@ -119,7 +119,7 @@
     const p1, 0xea65
 
     .line 5
-    const-string/jumbo v0, "\u6570\u636e\u89e3\u6790\u5931\u8d25"
+    const-string/jumbo v0, "Failed to parse data"
 
     invoke-virtual {p0, p1, v0}, Lio/dcloud/p/u2;->a(ILjava/lang/String;)V
 

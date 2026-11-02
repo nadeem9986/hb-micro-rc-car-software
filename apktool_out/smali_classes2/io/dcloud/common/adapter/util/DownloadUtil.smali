@@ -348,7 +348,7 @@
 
     .line 45
     :cond_1
-    const-string v6, "\u4e0b\u8f7d\u5b8c\u6210"
+    const-string v6, "Download complete"
 
     invoke-static {v7, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 

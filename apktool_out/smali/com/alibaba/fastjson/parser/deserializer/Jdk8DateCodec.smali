@@ -99,7 +99,7 @@
     sput-object v1, Lcom/alibaba/fastjson/parser/deserializer/Jdk8DateCodec;->formatter_dt19_tw:Ljava/time/format/DateTimeFormatter;
 
     .line 39
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5 HH:mm:ss"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     invoke-static {v1}, Landroidx/core/os/ConfigurationCompat$$ExternalSyntheticApiModelOutline0;->m(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
 
@@ -108,7 +108,7 @@
     sput-object v1, Lcom/alibaba/fastjson/parser/deserializer/Jdk8DateCodec;->formatter_dt19_cn:Ljava/time/format/DateTimeFormatter;
 
     .line 40
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5 H\u65f6m\u5206s\u79d2"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     invoke-static {v1}, Landroidx/core/os/ConfigurationCompat$$ExternalSyntheticApiModelOutline0;->m(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
 
@@ -180,7 +180,7 @@
     sput-object v1, Lcom/alibaba/fastjson/parser/deserializer/Jdk8DateCodec;->formatter_d10_tw:Ljava/time/format/DateTimeFormatter;
 
     .line 49
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5"
+    const-string/jumbo v1, "yyyy-MM-dd"
 
     invoke-static {v1}, Landroidx/core/os/ConfigurationCompat$$ExternalSyntheticApiModelOutline0;->m(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
 

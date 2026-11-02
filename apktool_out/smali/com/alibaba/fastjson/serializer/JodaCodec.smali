@@ -99,7 +99,7 @@
     sput-object v1, Lcom/alibaba/fastjson/serializer/JodaCodec;->formatter_dt19_tw:Lorg/joda/time/format/DateTimeFormatter;
 
     .line 26
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5 HH:mm:ss"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     invoke-static {v1}, Lorg/joda/time/format/DateTimeFormat;->forPattern(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;
 
@@ -108,7 +108,7 @@
     sput-object v1, Lcom/alibaba/fastjson/serializer/JodaCodec;->formatter_dt19_cn:Lorg/joda/time/format/DateTimeFormatter;
 
     .line 27
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5 H\u65f6m\u5206s\u79d2"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     invoke-static {v1}, Lorg/joda/time/format/DateTimeFormat;->forPattern(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;
 
@@ -180,7 +180,7 @@
     sput-object v1, Lcom/alibaba/fastjson/serializer/JodaCodec;->formatter_d10_tw:Lorg/joda/time/format/DateTimeFormatter;
 
     .line 36
-    const-string/jumbo v1, "yyyy\u5e74M\u6708d\u65e5"
+    const-string/jumbo v1, "yyyy-MM-dd"
 
     invoke-static {v1}, Lorg/joda/time/format/DateTimeFormat;->forPattern(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;
 

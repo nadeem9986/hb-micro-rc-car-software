@@ -101,7 +101,7 @@
     invoke-virtual {v1, v2}, Lio/dcloud/common/adapter/ui/AdaContainerFrameItem;->onPushToStack(Z)V
 
     .line 11
-    const-string v1, "\u8ba1\u7b97\u6ee1\u5c4f\u5e55\u65f6\u95f4"
+    const-string v1, "Calculate full-screen time"
 
     invoke-static {p1, v1}, Lio/dcloud/common/util/TestUtil;->print(Ljava/lang/String;Ljava/lang/String;)V
 

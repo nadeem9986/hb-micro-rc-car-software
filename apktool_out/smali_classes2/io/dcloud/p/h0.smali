@@ -242,19 +242,19 @@
 
     move-object/from16 v1, p0
 
-    const-string v0, "\u5f00\u59cb\u4fdd\u5b58\u56fe\u7247"
+    const-string v0, "Saving image"
 
-    const-string v2, "\u88c1\u526a\u5b8c\u6bd5"
+    const-string v2, "Crop complete"
 
-    const-string v3, "\u65cb\u8f6c\u5b8c\u6bd5"
+    const-string v3, "Rotate complete"
 
-    const-string v4, "\u83b7\u53d6bitmap \u5185\u5b58\u6ea2\u51fa\u7b2c\u4e00\u6b21 \u7b2c\u4e8c\u6b21\u83b7\u53d6bitmmap  bitmap\u8def\u5f84"
+    const-string v4, "Out of memory getting bitmap (first attempt), retrying; bitmap path"
 
-    const-string v5, "\u7f29\u653e\u5b8c\u6bd5"
+    const-string v5, "Scale complete"
 
-    const-string v6, "\u83b7\u53d6bitmap \u5185\u5b58\u6ea2\u51fa\u7b2c\u4e00\u6b21  bitmap\u8def\u5f84"
+    const-string v6, "Out of memory getting bitmap (first attempt); bitmap path"
 
-    const-string v7, "\u6587\u4ef6\u83b7\u53d6\u5b8c\u6bd5 \u521d\u59cb\u5316bitmap \u83b7\u53d6\u6587\u4ef6\u5927\u5c0f"
+    const-string v7, "File loaded; initializing bitmap; getting file size"
 
     const-class v8, Lio/dcloud/p/h0;
 

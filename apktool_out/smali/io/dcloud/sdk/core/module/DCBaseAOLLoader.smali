@@ -705,7 +705,7 @@
     const/16 v0, -0x1389
 
     .line 2
-    const-string/jumbo v1, "\u56de\u8c03\u63a5\u53e3\u8c03\u7528\u5931\u8d25\uff0c\u5e94\u8be5\u4f7f\u7528loadSuccess(List obj)"
+    const-string/jumbo v1, "Callback invocation failed; use loadSuccess(List obj) instead"
 
     invoke-virtual {p0, v0, v1}, Lio/dcloud/sdk/core/module/DCBaseAOLLoader;->loadFail(ILjava/lang/String;)V
 

@@ -108,7 +108,7 @@
 
     const v1, 0xea69
 
-    const-string v2, "\u56fe\u7247\u4e0b\u8f7d\u5931\u8d25"
+    const-string v2, "Image download failed"
 
     invoke-interface {v0, v1, v2}, Lio/dcloud/sdk/base/entry/AdData$e;->a(ILjava/lang/String;)V
 

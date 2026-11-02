@@ -684,7 +684,7 @@
 
     move-result-object v5
 
-    const-string v6, "\u5f20\u78ca "
+    const-string v6, "Zhang Lei "
 
     invoke-virtual {v5, v6}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 

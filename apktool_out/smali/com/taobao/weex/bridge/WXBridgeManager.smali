@@ -11375,7 +11375,7 @@
 
     aput-object v1, v2, v3
 
-    const-string v1, " isJSFrameworkInit\uff1a%b"
+    const-string v1, " isJSFrameworkInit: %b"
 
     invoke-static {v1, v2}, Lio/dcloud/common/util/StringUtil;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 

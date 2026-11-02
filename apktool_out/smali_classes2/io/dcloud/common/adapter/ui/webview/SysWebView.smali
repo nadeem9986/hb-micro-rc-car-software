@@ -3358,7 +3358,7 @@
 
     invoke-virtual {v10, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v9, "\u3010"
+    const-string v9, "["
 
     invoke-virtual {v10, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -3386,7 +3386,7 @@
 
     invoke-virtual {v10, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    const-string v4, "MB\u3011"
+    const-string v4, "MB]"
 
     invoke-virtual {v10, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -3817,7 +3817,7 @@
     .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
-    const-string p3, "\u4e0a\u62c9\u4e8b\u4ef6  url="
+    const-string p3, "Pull-up event  url="
 
     invoke-direct {p1, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

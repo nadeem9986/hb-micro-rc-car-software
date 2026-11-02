@@ -551,7 +551,7 @@
     .line 49
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v3, "B\u9875\u9762\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:true | "
+    const-string v3, "Enable screenshot animation for page B: true | "
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -578,7 +578,7 @@
     :cond_b
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v3, "B\u9875\u9762\u662f\u5426\u542f\u7528\u622a\u56fe\u52a8\u753b\u65b9\u6848:false | "
+    const-string v3, "Enable screenshot animation for page B: false | "
 
     invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

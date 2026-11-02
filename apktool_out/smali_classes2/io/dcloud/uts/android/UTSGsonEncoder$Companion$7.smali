@@ -204,7 +204,7 @@
     .locals 1
 
     .line 386
-    const-string v0, "UTS \u5185\u7f6e\u5bf9\u8c61"
+    const-string v0, "UTS built-in object"
 
     return-object v0
 .end method
