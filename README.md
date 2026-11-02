@@ -1,22 +1,10 @@
 # HB Micro RC Car Software
 
-A modernized Android controller APK for the HB micro RC car. The working Bluetooth behavior from the original app is preserved, the controller UI is converted to English, and the screen is rebuilt as a Material-style dark cockpit. The latest tested APK is included in the repo, so it can be installed without rebuilding.
+A modernized Android controller APK for the HB micro RC car (`HB TOYS64`). The original uni-app (Vue) controller shipped with a Chinese UI; this project decodes it with apktool, replaces the interface with an English, dark Material-style cockpit, and re-signs the APK - while keeping the car's Bluetooth protocol byte-for-byte compatible.
 
-## Demo
+## What changed vs the stock app
 
-_Add a screenshot of the new controller screen here._
-
-## Current APK
-
-- Package: `com.JD.ZDFcar`
-- Version: `1.1.0` / `110`
-- App label: `Micro RC Car`
-- Bluetooth target: `HB TOYS64`
-- Latest signed APK: `build/micro-rc-car-modern-signed.apk`
-
-## What changed
-
-- Rebuilt the old Chinese UI into an English, modern dark controller screen
+- Rebuilt the old Chinese UI into an English, modern dark cockpit (Material-style)
 - Replaced the boxed `EXIT` graphic with a compact power icon
 - Replaced legacy top-bar images with round Material-style line controls
 - Preserved the working Bluetooth name/connection path for `HB TOYS64`
@@ -27,12 +15,21 @@ _Add a screenshot of the new controller screen here._
 ## Repository layout
 
 - `apktool_out/` - apktool-decoded APK project with the patched web assets and Android metadata
-- `scripts/material_revamp.js` - applies the final JS/CSS/metadata patches
-- `scripts/create_material_assets.ps1` - regenerates the final Material-style PNG assets
-- `build/micro-rc-car-modern-signed.apk` - latest signed APK to install
+- `scripts/material_revamp.js` - applies the JS/CSS/metadata patches idempotently (fails loudly if a pattern doesn't match)
+- `scripts/create_material_assets.ps1` - regenerates the Material-style PNG assets (Windows/PowerShell)
+- `build/micro-rc-car-modern-signed.apk` - signed APK, ready to install
+- `BACKEND_FLOW.md` - the decoded BLE protocol contract: packet format, discovery/connection flow, frontend rules
 
 Local analysis output, screenshots, tool downloads, original APK copies, unsigned APKs, and signing keys are ignored by Git.
 
-## What this demonstrates
+## Building
 
-Reverse-engineering and repackaging an Android APK: apktool decoding, asset and metadata patching, re-signing, and keeping a hardware protocol working while replacing the whole UI.
+See [BUILD.md](BUILD.md) for the full decode -> patch -> rebuild -> sign pipeline.
+
+## Protocol documentation
+
+[BACKEND_FLOW.md](BACKEND_FLOW.md) documents everything decoded from the app: the 9-byte command packet, the 55 ms control loop, BLE service/characteristic discovery, throttle/steering byte mapping, and the contract any future UI redesign must respect.
+
+## Legal note
+
+This is an unofficial modification of a proprietary toy-car app, shared for education and personal interoperability with hardware you own. The original app and its assets belong to their respective owner; the patches, scripts, and documentation here are the original work of this repo's author. No original APK is redistributed beyond the rebuilt derivative in `build/`.
