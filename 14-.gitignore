@@ -1,0 +1,23 @@
+# Generated analysis output
+/jadx_out/
+/apk_analysis/
+/apktool_out/build/
+
+# Local tool downloads
+/tools/
+
+# Intermediate APK build products
+/ZDFcar.apk
+/build/*.apk
+/build/*aligned*.apk
+/build/*.idsig
+/build/*fallback*.apk
+/build/*.keystore
+
+# Local screenshots
+/control-screen.png
+/modern-*.png
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
